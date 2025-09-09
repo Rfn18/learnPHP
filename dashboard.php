@@ -19,7 +19,7 @@
 <body>
     <?php include "layout/header.php"?>
     <main>
-        <h3>Halo <span><?= $_SESSION["username"] ?></span> selamat datang di Dashboard!</h3>
+        <h3>Halo <span class="name"><?= $_SESSION["username"] ?></span> selamat datang di Dashboard!</h3>
         <form action="dashboard.php" method="POST">
             <input type="submit" name="logout" value="logout">
         </form>

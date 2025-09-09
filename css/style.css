@@ -55,6 +55,10 @@ main {
   gap: 2em;
 }
 
+.name {
+  color: #65921c;
+}
+
 main h3 {
   font-size: 30px;
 }
@@ -85,6 +89,7 @@ form input:hover {
   color: #37353e;
   cursor: pointer;
 }
+
 
 footer {
   display: flex;
